@@ -43,7 +43,7 @@ section {
         height: fit-content;
         flex-direction: column;
         gap: 5px;
-        padding: 10px;
+        padding: 0%;
     }
 }
 @media screen and (max-width:768px) {
@@ -62,7 +62,7 @@ section {
         align-items: center;
         flex-direction: column;
         gap: 5px;
-        padding: 10px;
+        padding: 0%;
     }
 }
 
@@ -399,11 +399,16 @@ section > .container-3 {
 }
 
 .container-3 > .box > h4 {
-    width: 100%;
     margin-bottom: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 1rem;
+}
+
+.container-3 > .box > p {
+    font-size: 1rem;
+    line-height: 1.5rem;
 }
 
 @media screen and (max-width:650px) {
@@ -455,21 +460,17 @@ section > .container-4 {
 }
 
 .container-4 > .box > h4 {
-    width: 100%;
     margin-bottom: 20px;
-    margin-bottom: 5px;
-    padding-bottom: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    font-size: 1.4rem;
 }
 
 .container-4 > .box > p {
-    width: 100%;
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    padding-top: 20px;
+    font-size: 1rem;
+    line-height: 1.5rem;
 }
 
 @media screen and (max-width:650px) {
